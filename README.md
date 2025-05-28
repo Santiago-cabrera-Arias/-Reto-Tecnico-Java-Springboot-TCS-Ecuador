@@ -36,19 +36,22 @@ La API REST implementa operaciones CRUD sobre las entidades principales del sist
 - Maven
 - JUnit y Mockito
 
-#Estructura del Proyecto
+# Estructura del Proyecto
 
 <pre lang="markdown"> ```bash 📁 reto_tcs_ecuador ├── 📁 controller │ ├── ClienteController.java │ ├── CuentaController.java │ └── MovimientoController.java ├── 📁 dto │ ├── ClienteRequestDTO.java │ ├── ClienteResponseDTO.java │ ├── CuentaDTO.java │ ├── DetalleMovimientoDTO.java │ └── MovimientoDTO.java ├── 📁 exception │ ├── ClienteNotFoundException.java │ ├── CuentaNotFoundException.java │ ├── GlobalExceptionHandler.java │ └── MovimientoNotFoundException.java ├── 📁 mapper │ ├── ClienteMapper.java │ ├── CuentaMapper.java │ └── MovimientoMapper.java ├── 📁 model │ ├── Cliente.java │ ├── Cuenta.java │ ├── Movimiento.java │ └── Persona.java ├── 📁 repository │ ├── ClienteRepository.java │ ├── CuentaRepository.java │ └── MovimientoRepository.java ├── RetoTcsEcuadorApplication.java ├── 📁 service │ ├── ClienteService.java │ ├── CuentaService.java │ ├── MovimientoService.java │ └── 📁 impl │ ├── ClienteServiceImpl.java │ ├── CuentaServiceImpl.java │ └── MovimientoServiceImpl.java └── 📁 utils ├── Genero.java └── TipoCuenta.java ``` </pre>
 
 # Configuración y Ejecución
-- Compilar el proyecto
-- Desde la raíz del proyecto: mvn clean package -DskipTests
+- Para Compilar el proyecto desde la raíz del proyecto:
+  - mvn clean package -DskipTests
 
-- Ejecutar con Docker docker compose up --build
+- Ejecutar con comando de Docker:
+  - docker compose up --build
   Esto levantará:
     - La aplicación Spring Boot expuesta en http://localhost:8060
     - Una base de datos PostgreSQL en localhost:5432
 
-Autor
-Santiago Cabrera Arias
-Desarrollador Backend.
+## Autor
+
+**Santiago Cabrera Arias**  
+Desarrollador Backend
+
