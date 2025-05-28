@@ -81,7 +81,6 @@ La API REST implementa operaciones CRUD sobre las entidades principales del sist
     └── Genero.java
     └── TipoCuenta.java
 
-```
 # Configuración y Ejecución
 - Compilar el proyecto
 - Desde la raíz del proyecto: mvn clean package -DskipTests
