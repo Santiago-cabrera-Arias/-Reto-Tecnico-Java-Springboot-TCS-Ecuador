@@ -38,48 +38,7 @@ La API REST implementa operaciones CRUD sobre las entidades principales del sist
 
 #Estructura del Proyecto
 
-
-└── 📁reto_tcs_ecuador
-└── 📁controller
-    └── ClienteController.java
-    └── CuentaController.java
-    └── MovimientoController.java
-└── 📁dto
-    └── ClienteRequestDTO.java
-    └── ClienteResponseDTO.java
-    └── CuentaDTO.java
-    └── DetalleMovimientoDTO.java
-    └── MovimientoDTO.java
-└── 📁exception
-    └── ClienteNotFoundException.java
-    └── CuentaNotFoundException.java
-    └── GlobalExceptionHandler.java
-    └── MovimientoNotFoundException.java
-└── 📁mapper
-    └── ClienteMapper.java
-    └── CuentaMapper.java
-    └── MovimientoMapper.java
-└── 📁model
-    └── Cliente.java
-    └── Cuenta.java
-    └── Movimiento.java
-    └── Persona.java
-└── 📁repository
-    └── ClienteRepository.java
-    └── CuentaRepository.java
-    └── MovimientoRepository.java
-└── RetoTcsEcuadorApplication.java
-└── 📁service
-    └── ClienteService.java
-    └── CuentaService.java
-    └── 📁impl
-        └── ClienteServiceImpl.java
-        └── CuentaServiceImpl.java
-        └── MovimientoServiceImpl.java
-    └── MovimientoService.java
-└── 📁utils
-    └── Genero.java
-    └── TipoCuenta.java
+<pre lang="markdown"> ```bash 📁 reto_tcs_ecuador ├── 📁 controller │ ├── ClienteController.java │ ├── CuentaController.java │ └── MovimientoController.java ├── 📁 dto │ ├── ClienteRequestDTO.java │ ├── ClienteResponseDTO.java │ ├── CuentaDTO.java │ ├── DetalleMovimientoDTO.java │ └── MovimientoDTO.java ├── 📁 exception │ ├── ClienteNotFoundException.java │ ├── CuentaNotFoundException.java │ ├── GlobalExceptionHandler.java │ └── MovimientoNotFoundException.java ├── 📁 mapper │ ├── ClienteMapper.java │ ├── CuentaMapper.java │ └── MovimientoMapper.java ├── 📁 model │ ├── Cliente.java │ ├── Cuenta.java │ ├── Movimiento.java │ └── Persona.java ├── 📁 repository │ ├── ClienteRepository.java │ ├── CuentaRepository.java │ └── MovimientoRepository.java ├── RetoTcsEcuadorApplication.java ├── 📁 service │ ├── ClienteService.java │ ├── CuentaService.java │ ├── MovimientoService.java │ └── 📁 impl │ ├── ClienteServiceImpl.java │ ├── CuentaServiceImpl.java │ └── MovimientoServiceImpl.java └── 📁 utils ├── Genero.java └── TipoCuenta.java ``` </pre>
 
 # Configuración y Ejecución
 - Compilar el proyecto
